@@ -3,12 +3,12 @@
 int main (){
 
     //Variaveis para a carta 1
-    char estado1[2], cod_carta1[3], cidade1[50];
+    char estado1[3], cod_carta1[3], cidade1[50];
     float area1, pib1;
     int populacao1, turismo1;
 
     //Variaveis para a carta 2
-    char estado2[2], cod_carta2[3], cidade2[50];
+    char estado2[3], cod_carta2[3], cidade2[50];
     float area2, pib2;
     int populacao2, turismo2;
 
@@ -60,9 +60,9 @@ int main (){
     printf("População: %d\n", populacao1);
     printf("Area (km²): %f\n", area1);
     printf("PIB: %f\n", pib1);
-    printf("Número de Pontos Turísticos: %d\n", turismo1);
+    printf("Número de Pontos Turísticos: %d\n\n", turismo1);
 
-    printf("====================================");
+    printf("====================================\n\n");
 
     //Apresenta os dados da segunda carta
     printf("+-------------------+\n");
